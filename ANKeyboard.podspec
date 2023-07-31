@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
   'This pod shows Done button as accessory to Keyboard. Just set accessory in storyboard for UItextField or UITextView'
-
+                        DESC
   s.homepage         = 'https://github.com/AsawariVishal/ANKeyboard'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
