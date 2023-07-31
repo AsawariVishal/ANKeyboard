@@ -1,0 +1,22 @@
+{
+  "name": "ANKeyboard",
+  "version": "0.1.0",
+  "summary": "A short description of ANKeyboard.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AsawariVishal/ANKeyboard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AsawariVishal": "asawarivishal@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/AsawariVishal/ANKeyboard.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ANKeyboard/Classes/**/*"
+}

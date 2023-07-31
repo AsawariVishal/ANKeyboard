@@ -1,0 +1,6 @@
+framework module ANKeyboard {
+  umbrella header "ANKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

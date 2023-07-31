@@ -1,0 +1,16 @@
+PODS:
+  - ANKeyboard (0.1.0)
+
+DEPENDENCIES:
+  - ANKeyboard (from `../`)
+
+EXTERNAL SOURCES:
+  ANKeyboard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ANKeyboard: ed4493dbc3b79290acc0bb3d89a986ba6c703550
+
+PODFILE CHECKSUM: 5200edfa6310e48103969d12ba833aa44b5731c2
+
+COCOAPODS: 1.11.2
