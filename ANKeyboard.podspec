@@ -29,12 +29,12 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'ANKeyboard/Classes/**/*.swift'
+  s.source_files = 'Classes/**/*.swift'
   
   s.swift_version = '5.0'
   
   s.platforms = {
-      "iOS": "13.0"
+      "ios": "13.0"
   }
   
   # s.resource_bundles = {

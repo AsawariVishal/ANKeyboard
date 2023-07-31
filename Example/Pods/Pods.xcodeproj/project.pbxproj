@@ -51,17 +51,17 @@
 		6816CFDA2A77D7E400D7C4B4 /* ANKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANKeyboard.swift; sourceTree = "<group>"; };
 		682A53020F3034D2C639394CB30F2EA9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7D29AF8D168902EDC0F8FAA255FFDCE6 /* Pods-ANKeyboard_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ANKeyboard_Example"; path = Pods_ANKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D29AF8D168902EDC0F8FAA255FFDCE6 /* Pods_ANKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ANKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A3684CB6AAE53EEB07BCAB41A0537F /* Pods-ANKeyboard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANKeyboard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8ACBFA0A6D26AA6F616B228677C5688D /* Pods-ANKeyboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ANKeyboard_Example-dummy.m"; sourceTree = "<group>"; };
 		8F6818ADD67E364F6A44CF1A9821E889 /* Pods-ANKeyboard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ANKeyboard_Example.modulemap"; sourceTree = "<group>"; };
 		95F6E04B14E9E6D26BCC39E829C9ED27 /* Pods-ANKeyboard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ANKeyboard_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0C99100485DE9C8A9D031CBD3DE5A0A /* ANKeyboard */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ANKeyboard; path = ANKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C99100485DE9C8A9D031CBD3DE5A0A /* ANKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ANKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C464CCEDCAFC30A0B6ED22D752C777 /* Pods-ANKeyboard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ANKeyboard_Tests-dummy.m"; sourceTree = "<group>"; };
 		A86F91EDE0490678DC96A7687603C744 /* Pods-ANKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD2556E6DEF5B7C637BBF11BFA6B6966 /* Pods-ANKeyboard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANKeyboard_Example-Info.plist"; sourceTree = "<group>"; };
-		AEF3609D8910729FCCDD006CF8E5913A /* Pods-ANKeyboard_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ANKeyboard_Tests"; path = Pods_ANKeyboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF3609D8910729FCCDD006CF8E5913A /* Pods_ANKeyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ANKeyboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9FC5D05E5C5C1442AB7FD4F3474E76E /* ANKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ANKeyboard-dummy.m"; sourceTree = "<group>"; };
 		C84AB1C3DDC5C70A6D06BD7A05AB8520 /* ANKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANKeyboard-umbrella.h"; sourceTree = "<group>"; };
 		CD1AC11ED70FD960E56B915874207C86 /* Pods-ANKeyboard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ANKeyboard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -142,9 +142,9 @@
 		50A27BE3CD555A55130FF933DF043DF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0C99100485DE9C8A9D031CBD3DE5A0A /* ANKeyboard */,
-				7D29AF8D168902EDC0F8FAA255FFDCE6 /* Pods-ANKeyboard_Example */,
-				AEF3609D8910729FCCDD006CF8E5913A /* Pods-ANKeyboard_Tests */,
+				A0C99100485DE9C8A9D031CBD3DE5A0A /* ANKeyboard.framework */,
+				7D29AF8D168902EDC0F8FAA255FFDCE6 /* Pods_ANKeyboard_Example.framework */,
+				AEF3609D8910729FCCDD006CF8E5913A /* Pods_ANKeyboard_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -277,7 +277,7 @@
 			);
 			name = "Pods-ANKeyboard_Example";
 			productName = Pods_ANKeyboard_Example;
-			productReference = 7D29AF8D168902EDC0F8FAA255FFDCE6 /* Pods-ANKeyboard_Example */;
+			productReference = 7D29AF8D168902EDC0F8FAA255FFDCE6 /* Pods_ANKeyboard_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		94C3E658D53C589B005B74C543AB2064 /* Pods-ANKeyboard_Tests */ = {
@@ -296,7 +296,7 @@
 			);
 			name = "Pods-ANKeyboard_Tests";
 			productName = Pods_ANKeyboard_Tests;
-			productReference = AEF3609D8910729FCCDD006CF8E5913A /* Pods-ANKeyboard_Tests */;
+			productReference = AEF3609D8910729FCCDD006CF8E5913A /* Pods_ANKeyboard_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F511B08C54927B4A11F4795EEDAD72A8 /* ANKeyboard */ = {
@@ -314,7 +314,7 @@
 			);
 			name = ANKeyboard;
 			productName = ANKeyboard;
-			productReference = A0C99100485DE9C8A9D031CBD3DE5A0A /* ANKeyboard */;
+			productReference = A0C99100485DE9C8A9D031CBD3DE5A0A /* ANKeyboard.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -430,7 +430,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ANKeyboard_Example/Pods-ANKeyboard_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ANKeyboard_Example/Pods-ANKeyboard_Example.modulemap";
@@ -463,7 +463,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ANKeyboard/ANKeyboard-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ANKeyboard/ANKeyboard-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ANKeyboard/ANKeyboard.modulemap";
 				PRODUCT_MODULE_NAME = ANKeyboard;
@@ -494,7 +494,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ANKeyboard_Tests/Pods-ANKeyboard_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ANKeyboard_Tests/Pods-ANKeyboard_Tests.modulemap";
@@ -528,7 +528,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ANKeyboard/ANKeyboard-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ANKeyboard/ANKeyboard-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ANKeyboard/ANKeyboard.modulemap";
 				PRODUCT_MODULE_NAME = ANKeyboard;
@@ -560,7 +560,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ANKeyboard_Example/Pods-ANKeyboard_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ANKeyboard_Example/Pods-ANKeyboard_Example.modulemap";
@@ -628,7 +628,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -655,7 +655,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ANKeyboard_Tests/Pods-ANKeyboard_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ANKeyboard_Tests/Pods-ANKeyboard_Tests.modulemap";
@@ -725,7 +725,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
