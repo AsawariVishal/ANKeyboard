@@ -78,9 +78,9 @@ extension UIViewController {
 
     public func RGDoneKeyboard(dismissOnTap:Bool) {
         // Setup Keyboard observers
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: .UIKeyboardWillHide, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: .UIKeyboardWillChangeFrame, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil);
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil);
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: UIResponder.keyboardWillChangeFrameNotification, object: nil);
         
         // Setup Tap Gesture to dismiss keyboard on tap
         if dismissOnTap {
@@ -129,9 +129,12 @@ extension UIViewController {
         }
         
         // Calculate keyboard size
-        guard let keyboardSize = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue else { return }
+        guard let userInfo = notification.userInfo,
+              let keyboardSize = userInfo[UIResponder.keyboardFrameEndUserInfoKey] as? CGRect else { return }
         
-        if notification.name == .UIKeyboardWillChangeFrame || notification.name == .UIKeyboardWillShow {
+        //guard let keyboardSize = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue else { return }
+        
+        if notification.name == UIResponder.keyboardWillChangeFrameNotification || notification.name == UIResponder.keyboardWillShowNotification {
             
             // Check if location is > (ViewHeight - KeyboardHeight - TextFieldOrViewHeight - Margin8)
             if(location > (self.view.frame.height - keyboardSize.height - tfvHeight - 8) ) {
