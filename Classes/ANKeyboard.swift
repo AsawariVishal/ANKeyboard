@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import UIKit
+
 extension UITextField{
     @IBInspectable var doneAccessory: Bool{
         get{
@@ -76,7 +78,7 @@ extension UIViewController {
 
     public func RGDoneKeyboard(dismissOnTap:Bool) {
         // Setup Keyboard observers
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: .UIKeyboardWillShow, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: .UIKeyboardWillHide, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: .UIKeyboardWillChangeFrame, object: nil)
         
